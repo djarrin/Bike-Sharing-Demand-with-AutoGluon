@@ -31,11 +31,11 @@ Please see worksheet for this table (towards the bottom)
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![model_train_score.png](https://github.com/djarrin/Bike-Sharing-Demand-with-AutoGluon/assets/7516512/92c54e87-5ef9-4d07-8dbd-d4fe4cb28b5a)
+![model_train_score.png](https://github.com/djarrin/Bike-Sharing-Demand-with-AutoGluon/assets/7516512/60c7a47f-f9ee-4794-8527-3e87b05497ea)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](https://github.com/djarrin/Bike-Sharing-Demand-with-AutoGluon/assets/7516512/fcad3bb8-e6f5-41f7-ada6-d9659317a55b)
+![model_test_score.png](https://github.com/djarrin/Bike-Sharing-Demand-with-AutoGluon/assets/7516512/df7bbc2a-93c0-402a-86de-ec17ca19cf3c)
 
 ## Summary
 This was an informative project where I became more familiar with SageMaker studio and the AutoGluon tool. I was able to achieve the best 
