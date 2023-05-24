@@ -7,10 +7,9 @@ The main change I needed to make when submitting my results to Kaggle was that I
 include the datetime and the count columns
 
 ### What was the top ranked model that performed?
-My top ranked model was the one where I kept most of the defaults for the AutoGluon model but added in the hours feature. I believe in my 3rd model
-where I was doing the hyperparameter turning I added more time for the model to train and switched on the auto_stack parameter, this didn't perform as well for one of two reasons (I think); I think adding
-more time to the model may have led to over fitting or the 2nd possibility is adding the auto_stack parameter required for the model to train for longer and perhaps if I would have increased the time_limit parameter
-I would have seen better results.
+My top performing model was my 3rd and final model (with the hyperparameter tuning). This honestly was a little bit of a surprise to me as in my first
+submission this method performed worse and it seems this isn't the most efficient way to use AutoGluon. I believe this was a little bit of luck in picking the correct parameters
+to tune and then focusing more training time just on those parameters (also I wasn't using the hyperparameter and hyperparameter_tune_kwargs correctly the first submission).
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
@@ -22,7 +21,7 @@ people were normally riding bikes (winter has fewer day light hours).
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-It actually performed slightly worse with the parameters I added in.
+I increased my Kaggle score by 0.1836.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 I would spend more time adjusting the parameters to see if I could get the Kaggle scores down.
